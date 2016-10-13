@@ -18,4 +18,4 @@ for fileName in sys.argv[1::]:
 	activeFile.close()
 
 for key in nameDict:
-	print(key, "\t", nameDict[key])
+	print("{0:10}{1}".format(key, nameDict[key]))
